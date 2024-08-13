@@ -7,27 +7,47 @@
             background: linear-gradient(337deg, rgba(12,106,54,1) 0%, rgba(30,226,120,1) 35%, rgba(255,255,255,1) 75%);
         }
         </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@100..900&display=swap" rel="stylesheet">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>    
+    .font {
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@100..900&display=swap" rel="stylesheet">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    }  
+</style>
     <style>
     body {
         font-family: 'Noto Sans Hebrew';font-size: 22px;
 }
+
     </style>
 
 </head>
 
 
 <body>
-<h1dir="rtl">מה שלומך אחות?</h1dir>
-<pdir="rtl">ברוכים הבאים לאתר שלי</pdir>
+
+<style>
+ @keyframes rotation {
+    from {rotate: 0deg;}
+    to {rotate: 360deg;}
+    }
+
+    #maccabi {
+    animation: rotation 8s linear infinite;
+    }
+</style>
+
+
+<h1 dir="rtl"> מה שלומך אחות? </h1dir>
+<h2 class=font> הכל טוב אחי</h2>
+<pdir="rtl"> ברוכים הבאים לאתר שלי </pdir>
     מקווה שהוא לא ממש גרוע
 </p>
 
-<img src="https://images.api.mhaifafc.com/logo_mhfc_5_7555ef7d46.svg" alt="מכבי חיפה אלופה">
+<img id="maccabi" src="https://images.api.mhaifafc.com/logo_mhfc_5_7555ef7d46.svg" alt="מכבי חיפה אלופה">
+
 
 </body>
 </html>
